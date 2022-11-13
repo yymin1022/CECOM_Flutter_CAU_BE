@@ -7,7 +7,7 @@ app.get("/", (req: Request, res: Response) => {
 });
 
 app.post("/getLibraryData", (req: Request, res: Response) => {
-    res.send("Hello, World! Meal Data!");
+    res.send("Hello, World! Library Data!");
 });
 
 app.post("/getMealData", (req: Request, res: Response) => {
@@ -15,11 +15,11 @@ app.post("/getMealData", (req: Request, res: Response) => {
 });
 
 app.post("/getNoticeData", (req: Request, res: Response) => {
-    res.send("Hello, World! Meal Data!");
+    res.send("Hello, World! Notice Data!");
 });
 
 app.post("/getScheduleData", (req: Request, res: Response) => {
-    res.send("Hello, World! Meal Data!");
+    res.send("Hello, World! Schedule Data!");
 });
 
 app.listen(8080, () => {
