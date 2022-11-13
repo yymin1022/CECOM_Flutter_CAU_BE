@@ -18,6 +18,10 @@ app.post("/getNoticeData", (req: Request, res: Response) => {
     res.send("Hello, World! Meal Data!");
 });
 
+app.post("/getScheduleData", (req: Request, res: Response) => {
+    res.send("Hello, World! Meal Data!");
+});
+
 app.listen(8080, () => {
     console.log("Server is Listening on Port 8080!");
 });
