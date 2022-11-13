@@ -8,7 +8,7 @@ app.get("/", (req: Request, res: Response) => {
 
 app.post("/getMealData", (req: Request, res: Response) => {
     res.send("Hello, World! Meal Data!");
-})
+});
 
 app.listen(8080, () => {
     console.log("Server is Listening on Port 8080!");
