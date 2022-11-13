@@ -6,6 +6,10 @@ app.get("/", (req: Request, res: Response) => {
     res.send("Hello, World!");
 });
 
+app.post("/getLibraryData", (req: Request, res: Response) => {
+    res.send("Hello, World! Meal Data!");
+});
+
 app.post("/getMealData", (req: Request, res: Response) => {
     res.send("Hello, World! Meal Data!");
 });
