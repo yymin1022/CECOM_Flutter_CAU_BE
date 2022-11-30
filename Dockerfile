@@ -9,4 +9,4 @@ COPY . .
 RUN npm run build
 
 EXPOSE 8080
-CMD ["node", "/app/build/index.js"]
+CMD ["node", "/app/build/app.js"]
