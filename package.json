@@ -2,7 +2,7 @@
   "name": "CECOM_Flutter_CAU_BE",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "build": "tsc",
     "start": "node ./build/app.js",
