@@ -6,16 +6,16 @@ export interface API_DATA {
 
 export interface LIBRARY_DATA {
 
-};
+}
 
 export interface MEAL_DATA {
 
-};
+}
 
 export interface NOTICE_DATA {
 
-};
+}
 
 export interface SCHEDULE_DATA {
 
-};
+}
