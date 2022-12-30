@@ -5,7 +5,13 @@ export interface API_DATA {
 }
 
 export interface LIBRARY_DATA {
+    LIBRARY_DATA: Array<LIBRARY_VALUE>
+}
 
+export interface LIBRARY_VALUE {
+    LIBRARY_NAME: string,
+    CNT_REMAIN: number,
+    CNT_USING: number
 }
 
 export interface MEAL_DATA {
