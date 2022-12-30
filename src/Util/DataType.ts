@@ -35,5 +35,10 @@ export interface NOTICE_VALUE {
 }
 
 export interface SCHEDULE_DATA {
+    SCHEDULE_DATA: Array<SCHEDULE_VALUE>
+}
 
+export interface SCHEDULE_VALUE {
+    SCHEDULE_TITLE: string,
+    SCHEDULE_DATE: string
 }
