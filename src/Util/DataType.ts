@@ -24,7 +24,14 @@ export interface MEAL_VALUE {
 }
 
 export interface NOTICE_DATA {
+    NOTICE_DATA: Array<NOTICE_VALUE>
+}
 
+export interface NOTICE_VALUE {
+    NOTICE_TITLE: string,
+    NOTICE_DATE: string,
+    NOTICE_AUTHOR: string,
+    NOTICE_URL: string
 }
 
 export interface SCHEDULE_DATA {
