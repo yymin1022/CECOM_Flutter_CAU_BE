@@ -15,7 +15,12 @@ export interface LIBRARY_VALUE {
 }
 
 export interface MEAL_DATA {
+    MEAL_DATA: Array<MEAL_VALUE>
+}
 
+export interface MEAL_VALUE {
+    MEAL_NAME: string,
+    MENU_DATA: Array<string>
 }
 
 export interface NOTICE_DATA {
